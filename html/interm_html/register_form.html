@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <div>
+            <label for="first">First Name:</label>
+            <input name="first" id="first" type="text" placeholder="John" required>
+
+            <label for="last">Last Name:</label>
+            <input name="last" id="last" type="text" placeholder="Doe" required>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input name="genderChoice" id="male" type="radio" value="Male">
+
+            <label for="female">Female</label>
+            <input name="genderChoice" id="female" type="radio" value="Female">
+
+            <label for="other">Other</label>
+            <input name="genderChoice" id="other" type="radio" value="Other">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" placeholder="johndoe@outlook.com" required>
+
+            <label for="password">Password:</label>
+            <input name="password" id="password" type="password" minlength="4" maxlength="12" required>
+        </div>
+        <div>
+            <label for="birthdate">Birthdate:</label>
+            <input name="birthdate" id="birthdate" type="date" required>
+        </div>
+        <div>
+            <label for="auth">I agree to the terms and conditions</label>
+            <input name="auth" id="auth" type="checkbox" required>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
