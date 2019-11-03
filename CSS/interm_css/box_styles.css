@@ -1,0 +1,19 @@
+p{
+    /* Content - Width and Heights */
+    /* PERCENTS ARE USEFUL IF YOU MAKE THE WINDOW SMALLER OR LARGER */
+    width: 50%;
+
+    /* Border */
+    border: 2px solid blue;
+
+    /* Padding */
+    padding-left:10px;
+
+    /* Margin */
+    /* margin: 100px */
+    /* margin-top:100px;*/
+    /* margin:20px 40px 500px 100px */
+    /* margin: 0 auto 0 auto;*/
+    margin: 0 auto;
+    margin: 50px 20px;
+}
