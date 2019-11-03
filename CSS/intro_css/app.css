@@ -1,0 +1,20 @@
+h1{
+    color:rgb(156, 45, 45);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+
+    border: 3px dashed rgb(32, 107, 32);
+}
+li{
+    color:#287715;
+}
+h4{
+    color:rgb(17, 2, 2);
+    background: rgb(168, 112, 7);
+}
+body{
+    background: url(https://images.unsplash.com/photo-1537507628519-f8b627e21912?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
