@@ -13,3 +13,13 @@ h1.style.border = "1px solid pink"
 // add,remove,toggle
 let change1 = document.querySelector("p")
 change1.classList.add("big")
+
+// Changes the text content thats on the page
+// change1.textContent = "blahblah blah"
+
+let p = document.getElementsByTagName("p")[0]
+
+let ul = document.querySelector("ul")
+// type ul.textContent to get text
+
+let p6 = document.querySelector("p")
