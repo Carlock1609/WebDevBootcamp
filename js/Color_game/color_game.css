@@ -4,9 +4,6 @@ body {
 h1 {
     color: white;
 }
-span {
-    color: white;
-}
 .square {
     width: 30%;
     background-color: purple;
@@ -19,4 +16,14 @@ span {
     /* centers grid */
     margin: 0 auto;
     max-width: 600px;
+}
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: ;
+}
+
+.selected {
+    background-color: blue;
 }
