@@ -1,0 +1,6 @@
+#container {
+    background: rgb(113, 158, 82);
+    width: 360px;
+    /* how to center trick */
+    margin: 0 auto;
+}
