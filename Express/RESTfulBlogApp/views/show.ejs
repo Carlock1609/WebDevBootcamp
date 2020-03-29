@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+<div class='container'>
+	<div class='container shadow-lg mt-5'>
+		<div>
+			<h4>
+				<%= blog.created.toDateString() %>
+			</h4>
+			<h1>
+				<%= blog.title %>
+			</h1>
+			<img src='<%= blog.image %>'>
+			<p>
+				<%= blog.body %>
+			<p>
+			<a href='/blogs/<%= blog._id %>'>
+				<button class='btn btn-warning'>
+					Edit
+				</button>
+			</a>
+			<form action='/blogs/<%= blog._id %>?_method=DELETE' method='POST'>
+				<button class='btn btn-danger' type='submit'>
+					Delete
+				</button>
+			</form>
+		</div>	
+	</div>	
+</div>
+
+<%- include('partials/footer') %>

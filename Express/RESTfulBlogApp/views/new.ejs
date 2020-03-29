@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+
+<div class='container'>
+	<div class='container shadow-lg'>
+	<h1 class='text-center'>
+		NEW BLOG
+	</h1>
+	<form action='/blogs' method='POST'>
+		<div>
+			<p>
+				Title
+			</p>
+			<input type='text' name='blog[title]' placeholder='title'>
+		</div>
+		<div>
+			<p>
+				Image
+			</p>
+			<input type='text' name='blog[image]' placeholder='image'>
+		</div>
+		<div>
+			<p>
+				Body
+			</p>
+			<input type='text' name='blog[body]' placeholder='Blog post goes here..'>
+		</div><br>
+		<div class='mb-3'>
+			<button type='submit' class='btn btn-primary'>
+				Submit
+			</button>
+		</div>
+		<br>
+	</form>
+		
+		
+	</div>
+	
+</div>
+
+<%- include('partials/footer') %>
